@@ -1,0 +1,36 @@
+{
+  "name": "icater",
+  "version": "1.0.0",
+  "description": "marketplace matching caters with businesses ",
+  "main": "index.js",
+  "scripts": {
+      "build": "webpack -p --progress --config webpack.config.js",
+      "dev-build": "webpack --progress -d --config webpack.config.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "watch": "webpack --progress -d --config webpack.config.js --watch"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asad8855/fullstack.git"
+  },
+  "keywords": [
+    "marketplace",
+    "cater",
+    "food"
+    "fullstack",
+    "template",
+    "python",
+    "react",
+    "npm",
+    "webpack"
+  ],
+  "author": "arash asady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asad8855/fullstack/issues"
+  },
+  "homepage": "https://github.com/asad8855/fullstack#readme",
+  "devDependencies": {
+    "webpack": "^3.9.1"
+  }
+}
